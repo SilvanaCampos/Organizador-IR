@@ -1,2 +1,91 @@
-# Organizador-IR
-Ferramenta em Excel para organizar informações da declaração de imposto de renda.
+# 📊 Organizador de Declaração de Imposto de Renda
+
+Ferramenta em **Excel** para organizar e reunir informações essenciais da declaração de imposto de renda.  
+Inclui menus de navegação, validações automáticas e funcionalidades extras para facilitar o preenchimento.
+
+---
+
+## 🎯 Objetivos do Projeto
+- Centralizar dados do titular, dependentes, alimentandos, rendimentos e bens.  
+- Automatizar cálculos de totais (dependentes, pagamentos, rendimentos).  
+- Validar entradas para evitar erros (ex.: CPF, datas, valores).  
+- Criar interface amigável com menus de navegação.  
+- Facilitar a exportação e consulta rápida de informações.  
+
+---
+
+## 🗂️ Estrutura dos Menus
+
+| Menu                | Função                                                                 |
+|---------------------|------------------------------------------------------------------------|
+| **Titular**         | Dados pessoais, ocupação principal, nº recibo da última declaração.    |
+| **Dependentes**     | Cadastro com cálculo automático do total de dependentes.               |
+| **Alimentando**     | Registro de pensão alimentícia e despesas médicas/educacionais.        |
+| **Rendimentos**     | Rendimentos tributáveis recebidos de PJ, IRRF e contribuições.         |
+| **Pagamentos**      | Registro de despesas com titular, dependentes e alimentandos.          |
+| **Bens e Direitos** | Imóveis, veículos, investimentos e discriminação detalhada.            |
+| **Dívidas e Ônus**  | Registro de dívidas e obrigações financeiras.                         |
+| **Resumo**          | Consolidação dos dados: rendimentos, despesas, bens e dívidas.        |
+
+---
+
+## ⚙️ Funcionalidades Técnicas
+
+- 🔍 **Validações automáticas**: CPF, CNPJ, datas e valores.  
+- 📊 **Cálculos automáticos**: totais de dependentes, pagamentos e rendimentos.  
+- 🖱️ **Menus de navegação**: botões para acessar cada seção.  
+- 📎 **Links rápidos**: atalhos para tabelas auxiliares (ex.: bancos, tipos de dependentes).  
+- ⚠️ **Regras de preenchimento**: cálculos só são realizados quando todas as colunas obrigatórias estão preenchidas.  
+
+---
+
+
+## 🚀 Como Usar
+1. Abra o arquivo `Projeto_Imposto.xlsx`.  
+2. Navegue pelos menus disponíveis.  
+3. Preencha os dados conforme solicitado.  
+4. Confira os cálculos automáticos no **Resumo**.  
+5. Utilize as tabelas auxiliares para padronizar informações (ex.: códigos de bancos).  
+
+---
+
+## 📂 Estrutura do Repositório
+
+Organizador-IR/
+
+- **Projeto_Imposto.xlsx** → Arquivo principal em Excel com todas as abas (Titular, Dependentes, Rendimentos, etc).  
+- **README.md** → Documento explicativo com objetivos, instruções e estrutura.  
+- **/images** → Pasta opcional para armazenar capturas de tela da interface preenchida.  
+
+
+
+## 🖼️ Capturas de Tela da Planilha
+
+Abaixo estão exemplos das abas principais do organizador de imposto de renda:
+
+### Titular
+![Tela Titular](/images/titular.jpg)
+
+### Dependentes
+![Tela Dependentes](/images/dependentes.jpg)
+
+### Alimentando
+![Tela Alimentando](/images/alimentando.jpg)
+
+### Rendimentos
+![Tela Rendimentos](/images/rendimentos.jpg)
+
+### Pagamentos Efetuados
+![Tela Pagamentos](/images/pagamentos.jpg)
+
+### Bens e Direitos
+![Tela Bens e Direitos](/images/bens-direitos.jpg)
+
+### Dívidas e Ônus
+![Tela Dívidas e Ônus](/images/dividas-onus.jpg)
+
+### Resumo Consolidado
+![Tela Resumo](/images/resumo.jpg)
+
+---
+
