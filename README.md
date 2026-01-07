@@ -57,7 +57,27 @@ Organizador-IR/
 - **README.md** → Documento explicativo com objetivos, instruções e estrutura.  
 - **/images** → Pasta opcional para armazenar capturas de tela da interface preenchida.  
 
+---
 
+## 📊 Resumo Consolidado com Cálculos Automáticos
+
+A aba **Resumo** utiliza nomes definidos para facilitar a leitura das fórmulas:
+
+| Categoria              | Nome Definido / Fórmula                                               |
+|------------------------|----------------------------------------------------------------------|
+| **Total de Dependentes** | `=total_dep` → Conta quantos dependentes foram cadastrados   |
+| **Total de Pagamentos**  | `=total_pagto` → Soma todas as despesas registradas                  |
+| **Pagamentos por Titular**  | `=desp_titular` → Soma apenas despesas do titular                   |
+| **Pagamentos por Dependentes**  | `=desp_depend` → Soma apenas despesas dos dependentes          |
+| **Pagamentos por Alimentando**  | `=desp_aliment` → Soma apenas despesas dos alimentando           |
+| **Pagamentos efetuados**  | `=total_pagto` → Total das despesas 
+| **Rendimentos Recebidos**| `=rend_recebido` → Total de rendimentos tributáveis recebidos    |
+| **Bens e Direitos**  |`=cont.se(Bens!E$6:$E$17;C21)` → Quantidade de Imóveis   |
+| **Bens e Direitos**  | `=cont.se(Bens!E$6:$E$17;C22)` → Quantidade de Veículos    |
+| **Bens e Direitos**  | `=cont.se(Bens!E$6:$E$17;C23)` → Quantidade de Bancos      |
+| **Dívidas e Ônus**     | `=divida` → Total de dívidas registradas                          |
+
+---
 
 ## 🖼️ Capturas de Tela da Planilha
 
@@ -87,5 +107,15 @@ Abaixo estão exemplos das abas principais do organizador de imposto de renda:
 ### Resumo Consolidado
 ![Tela Resumo](/images/resumo.jpg)
 
+## ⚠️ Observações Importantes
+- **Compatibilidade** : Recomendado o uso no Microsoft Excel 2019 ou superior.
+- **Segurança**: Esta planilha é apenas um organizador. Os dados devem ser inseridos manualmente no programa oficial da Receita Federal.
+
 ---
+## 👩‍💻 Autor
+
+Projeto desenvolvido por **Silvana Argemiro Campos**  - https://www.linkedin.com/in/silvana-correia-campos
+
+📍 Rio de Janeiro - RJ  
+
 
