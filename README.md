@@ -48,6 +48,17 @@ Inclui menus de navegação, validações automáticas e funcionalidades extras 
 5. Utilize as tabelas auxiliares para padronizar informações (ex.: códigos de bancos).  
 
 ---
+## 📦 Entrega dos Arquivos
+
+Devido ao tamanho do arquivo original, foram geradas duas versões para facilitar a entrega:
+
+- **Projeto_Imposto.rar** → Arquivo compactado contendo a versão original.  
+- **Projeto_Imposto.xlsb** → Versão otimizada em formato binário do Excel, mais leve e rápida para abrir.  
+
+👉 Recomenda-se utilizar a versão **.xlsb** para melhor desempenho.
+
+---
+
 
 ## 📂 Estrutura do Repositório
 
